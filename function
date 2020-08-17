@@ -14,7 +14,6 @@ def best_fit_slope(xs,ys):
     b = mean(ys) - a*mean(xs)
     return a , b
 
-
 def suqare_error(ys_orig, ys_line):
     return sum((ys_line-ys_orig)**2)
 
